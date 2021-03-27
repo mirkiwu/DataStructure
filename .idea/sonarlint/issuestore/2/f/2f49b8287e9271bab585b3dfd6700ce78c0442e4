@@ -1,0 +1,4 @@
+
+Š"squid:ClassVariableVisibilityCheck"PMake next a static final constant or non-public and provide accessors if needed.(±±èÃøÿÿÿÿ8ÏÙ÷‘å,
+[squid:UselessImportCheck"+Remove this unused import 'java.util.UUID'.(ÀãÄ£úÿÿÿÿ8üñø’å,
+‚"squid:ClassVariableVisibilityCheck"MMake e a static final constant or non-public and provide accessors if needed.(µºš¸8ÏÙ÷‘å,
