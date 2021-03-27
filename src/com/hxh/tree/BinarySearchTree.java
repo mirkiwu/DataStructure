@@ -45,31 +45,38 @@ public class BinarySearchTree<E extends Comparable <E> > {
      * @param e e
      */
     public void add(E e){
-        if(root == null){
-            root = new Node(e);
-            size ++ ;
-        }else{
-            add(root , e);
-        }
+        root = add(root , e);
     }
 
-    private void add(Node node , E e){
-        if(e.equals(e)){
-            return;
+    private Node add(Node node , E e){
+        if(node == null){
+            size++;
+            return new Node(e);
         }
-        if(e.compareTo(node.e)<0 && node.left == null ){
-            node.left = new Node(e);
-            size ++ ;
-            return;
-        }else if(e.compareTo(node.e)>0 && node.right == null){
-            node.right = new Node(e);
-            size ++ ;
-            return;
+        if(e.compareTo(node.e) < 0 ){
+            node.left = add(node.left,e);
+        }else if(e.compareTo(node.e) > 0){
+            node.right = add(node.right,e);
         }
-        if(e.compareTo(node.e) < 0){
-            add(node.left,e);
-        }else{
-            add(node.right,e);
+        return node;
+    }
+
+    public boolean contains(E e){
+        return search(root , e);
+    }
+
+    private boolean search(Node node , E e) {
+        if(node == null){
+            return false;
         }
+        if(node.e.compareTo(e) == 0){
+            return true;
+        }
+        else if(e.compareTo(node.e) < 0) {
+            return search(node.left, e);
+        }else if(e.compareTo(node.e) > 0) {
+            return search(node.right, e);
+        }
+        return true;
     }
 }
