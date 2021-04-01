@@ -1,5 +1,6 @@
 package com.hxh.tree;
 
+import java.util.ArrayList;
 import java.util.Random;
 
 /**
@@ -14,9 +15,17 @@ public class BinarySearchTreeMain {
 
         BinarySearchTree<Integer> binarySearchTree = new BinarySearchTree<>();
         Random random = new Random();
-        for (int i = 0; i < 20; i++) {
-            binarySearchTree.add(i);
+
+        ArrayList<Integer> nums = new ArrayList<>();
+
+        for (int i = 0; i < 1000 ; i++) {
+            binarySearchTree.add(random.nextInt(10000));
         }
-        System.out.println(binarySearchTree.contains(13));
+
+        while (!binarySearchTree.isEmpty()) {
+            nums.add(binarySearchTree.removeMin());
+        }
+
+        System.out.println("nums = " + nums);
     }
 }

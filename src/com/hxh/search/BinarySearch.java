@@ -9,10 +9,9 @@ package com.hxh.search;
 public class BinarySearch {
 
     /**
-     *
-     * @param arr
-     * @param searchKey
-     * @return
+     * @param arr 数组
+     * @param searchKey 搜索关键字
+     * @return 返回查询的结果
      */
     private static int find(int[] arr , int searchKey){
 
@@ -34,7 +33,6 @@ public class BinarySearch {
                 lowerBound = curl + 1;
             }
         }
-
         return -1;
     }
 
@@ -48,6 +46,7 @@ public class BinarySearch {
     public static boolean binarySearchByRecursive(int[] arr  , int searchKey){
        return findByRecursive(arr , 0 , arr.length , searchKey);
     }
+
 
     private static boolean findByRecursive(int[] arr , int lowerBound , int upperBound , int searchKey){
         int curl = (lowerBound + upperBound ) / 2 ;
@@ -67,8 +66,6 @@ public class BinarySearch {
         return findByRecursive(arr , lowerBound ,upperBound , searchKey);
     }
 
-
-
     public static void main(String[] args) {
 
         int[] nums = new int[100000];
@@ -78,12 +75,9 @@ public class BinarySearch {
         }
 //        int[] nums = {1,2,4,7};
 
-        System.out.println(find(nums, 1000));
+         System.out.println(find(nums, 1000));
 
 //        System.out.println(findByRecursive(nums, 0 , nums.length - 1 ,100));
 
     }
-
-
-
 }
