@@ -22,6 +22,14 @@ public class Array<E> {
         this(10);
     }
 
+    public Array(E[] arr){
+        data = (E[]) new Object[arr.length];
+        for (int i = 0; i < arr.length ; i++) {
+            data[i] = arr[i];
+        }
+        size = arr.length;
+    }
+
     public int getSize(){
         return size;
     }
@@ -87,7 +95,7 @@ public class Array<E> {
         return get(0);
     }
 
-    void set(int index , E e){
+    public void set(int index , E e){
         if(index < 0 || index > size){
             throw new IllegalArgumentException("Get failed , Index is illegal");
         }
@@ -150,10 +158,20 @@ public class Array<E> {
     }
 
     public void removeElement(E e){
+
         int index = find(e);
         if(index != -1){
             remove(index);
         }
+    }
+
+    public void swap(int i , int j ){
+        if(j < 0 || j > size  || i < 0 || i > size){
+            throw new IllegalArgumentException("Remove failed , Index is illegal");
+        }
+        E temp = data[i];
+        data[i] = data[j];
+        data[j] = temp;
     }
 
     @Override

@@ -81,7 +81,6 @@ public class BinarySearchTree<E extends Comparable <E> > {
         }else if(e.compareTo(node.e) > 0) {
             return search(node.right, e);
         }
-
         return true;
     }
 
@@ -280,7 +279,6 @@ public class BinarySearchTree<E extends Comparable <E> > {
                 size--;
                 return leftNode;
             }
-
             /*
              * 待删除节点左右子树均不为空的情况
              * 找到比待删除节大小的节点，即待删除节点右子树最小节点

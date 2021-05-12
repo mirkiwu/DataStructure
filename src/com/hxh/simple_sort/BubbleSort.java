@@ -1,7 +1,6 @@
 package com.hxh.simple_sort;
 
-import java.util.Arrays;
-import java.util.Random;
+
 
 /**
  * @author huangxunhui
@@ -22,14 +21,13 @@ public class BubbleSort {
         for (int i = arr.length ; i > 0; i--) {
             for (int j = 0; j < i - 1 ; j++) {
                 if(arr[j] > arr[j + 1]){
-                    int change = arr[j];
-                    arr[j] = arr[j+1];
-                    arr[j+1] = change;
+                    Utils.swap(arr, i , i+1);
                 }
             }
         }
         return arr;
     }
+
 
     private int[] sortByRecursive(int[] arr){
         return recursive(arr.length, arr);
@@ -42,26 +40,13 @@ public class BubbleSort {
         }
         for (int i = 0; i < end - 1; i++) {
             if(arr[i] > arr[i+1]){
-                int change = arr[i];
-                arr[i] = arr[i+1];
-                arr[i+1] = change;
+                Utils.swap(arr, i , i+1);
             }
         }
         return recursive(end-1 ,arr);
     }
 
-    private String print(int arr[]){
-        StringBuilder res = new StringBuilder();
-        res.append("[");
-        for (int i = 0; i < arr.length; i++) {
-            res.append(arr[i]);
-            if(i != arr.length - 1 ){
-                res.append(", ");
-            }
-        }
-        res.append("]");
-        return res.toString();
-    }
+
 
     public static void main(String[] args) {
         int[] nums = new int[10];
@@ -72,11 +57,11 @@ public class BubbleSort {
 
         BubbleSort bubbleSort = new BubbleSort();
 
-        System.out.println("原始数据：" + bubbleSort.print(nums));
+        System.out.println("原始数据：" + Utils.print(nums));
 
 //        System.out.println("非递归冒泡排序：" + bubbleSort.print(bubbleSort.sort(nums)));
 
-        System.out.println("递归冒泡排序：" + bubbleSort.print(bubbleSort.sortByRecursive(nums)));
+        System.out.println("递归冒泡排序：" + Utils.print(bubbleSort.sortByRecursive(nums)));
 
 
     }
