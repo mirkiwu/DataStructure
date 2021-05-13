@@ -1,13 +1,14 @@
 
+V
+squid:S106"9Replace this use of System.out or System.err by a logger.(™¦°8›Çºä,
 [
 squid:S106"9Replace this use of System.out or System.err by a logger.(±û¨ßúÿÿÿÿ8Á€¦¹ä,
+V
+squid:S106"9Replace this use of System.out or System.err by a logger.(™¦°8œüá¹ä,
+[
+squid:S106"9Replace this use of System.out or System.err by a logger.(í¹İşÿÿÿÿ8Ö³¹ä,
 [
 squid:S106"9Replace this use of System.out or System.err by a logger.(©íÑĞùÿÿÿÿ8›ä¢¹ä,
 [
 squid:S106"9Replace this use of System.out or System.err by a logger.(™æôÖÿÿÿÿÿ8á³ºä,
-V
-squid:S106"9Replace this use of System.out or System.err by a logger.(™¦°8›Çºä,
-[
-squid:S106"9Replace this use of System.out or System.err by a logger.(í¹İşÿÿÿÿ8Ö³¹ä,
-V
-squid:S106"9Replace this use of System.out or System.err by a logger.(™¦°8œüá¹ä,
+squid:UselessImportCheck"TRemove this unnecessary import: same package classes are always implicitly imported.(›ªìµ8¯ñ©©õ,

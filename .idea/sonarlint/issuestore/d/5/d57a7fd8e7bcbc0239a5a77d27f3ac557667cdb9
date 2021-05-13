@@ -1,7 +1,8 @@
 
+[
+squid:S106,"9Replace this use of System.out or System.err by a logger.(”÷ÃÓüÿÿÿÿ8¿¨¡·å,
 V
 squid:S1060"9Replace this use of System.out or System.err by a logger.(è‚ÿ8–øü¶å,
 [
 squid:S106."9Replace this use of System.out or System.err by a logger.(ûà‘Êùÿÿÿÿ8¿¨¡·å,
-[
-squid:S106,"9Replace this use of System.out or System.err by a logger.(”÷ÃÓüÿÿÿÿ8¿¨¡·å,
+;squid:S2119"Save and re-use this "Random".(¼İÅf8®ñ©©õ,

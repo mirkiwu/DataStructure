@@ -1,4 +1,7 @@
 
+osquid:CommentedOutCodeLineÑ"<This block of commented-out lines of code should be removed.(½èï³ûÿÿÿÿ8ÚÉÊ˜õ,
 Š"squid:ClassVariableVisibilityCheck"PMake next a static final constant or non-public and provide accessors if needed.(±±èÃøÿÿÿÿ8ÏÙ÷‘å,
 [squid:UselessImportCheck"+Remove this unused import 'java.util.UUID'.(ÀãÄ£úÿÿÿÿ8üñø’å,
+nsquid:CommentedOutCodeLinea"<This block of commented-out lines of code should be removed.(œç•ºøÿÿÿÿ8ÚÉÊ˜õ,
 ‚"squid:ClassVariableVisibilityCheck"MMake e a static final constant or non-public and provide accessors if needed.(µºš¸8ÏÙ÷‘å,
+osquid:CommentedOutCodeLine³"<This block of commented-out lines of code should be removed.(áâª²ûÿÿÿÿ8ÚÉÊ˜õ,

@@ -1,10 +1,10 @@
 
-Lsquid:S1068")Remove this unused "count" private field.(É°ÞÄøÿÿÿÿ8ìõ£»æ,
-]squid:UselessImportCheck"-Remove this unused import 'java.util.Arrays'.(î–˜Éüÿÿÿÿ8Ù„È¸æ,
-[squid:S1197"8Move the array designator from the variable to the type.(ÀÞîÿýÿÿÿÿ8àä¯¸æ,
-Usquid:S11975"8Move the array designator from the variable to the type.(â½áu8ÆÕŽ¹æ,
-V
-squid:S106O"9Replace this use of System.out or System.err by a logger.(Þ¿ÓÍ8ú÷¤»æ,
-U
-squid:S106K"9Replace this use of System.out or System.err by a logger.(É„¨k8ÆÕŽ¹æ,
-Zsquid:UnusedPrivateMethod")Remove this unused private "sort" method.(ÀÞîÿýÿÿÿÿ8•½ó»æ,
+[
+squid:S106@"9Replace this use of System.out or System.err by a logger.(þ¾°ðüÿÿÿÿ8ú÷¤»æ,
+Lsquid:S1068")Remove this unused "count" private field.(É°ÞÄøÿÿÿÿ8ìõ£»æ,
+[squid:S1197"8Move the array designator from the variable to the type.(ÀÞîÿýÿÿÿÿ8àä¯¸æ,
+Zsquid:UnusedPrivateMethod")Remove this unused private "sort" method.(ÀÞîÿýÿÿÿÿ8•½ó»æ,
+[
+squid:S106<"9Replace this use of System.out or System.err by a logger.(ù¾Ùòüÿÿÿÿ8ÆÕŽ¹æ,
+isquid:CommentedOutCodeLine6"<This block of commented-out lines of code should be removed.(Ÿú¯¤8¨ñ©©õ,
+nsquid:CommentedOutCodeLine>"<This block of commented-out lines of code should be removed.(¸ºŠ‘ûÿÿÿÿ8¨ñ©©õ,

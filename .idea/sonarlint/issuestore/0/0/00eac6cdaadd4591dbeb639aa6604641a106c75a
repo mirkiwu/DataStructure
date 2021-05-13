@@ -1,11 +1,14 @@
 
 [
-squid:S106,"9Replace this use of System.out or System.err by a logger.(Øªòùÿÿÿÿ8‰Šê‡æ,
-[
-squid:S106%"9Replace this use of System.out or System.err by a logger.(Øªòùÿÿÿÿ8Š·À•å,
+squid:S106("9Replace this use of System.out or System.err by a logger.(Øªòùÿÿÿÿ8…Ç‡æ,
 ™squid:S1319"vThe type of the "linkedList" object should be an interface such as "List" rather than the implementation "LinkedList".(ğ‰˜ûøÿÿÿÿ8÷ÚĞ‡æ,
-™squid:S1319"vThe type of the "linkedList" object should be an interface such as "List" rather than the implementation "LinkedList".(àƒˆşÿÿÿÿ8‰Šê‡æ,
 [
 squid:S106 "9Replace this use of System.out or System.err by a logger.(Øªòùÿÿÿÿ8½¿•å,
 [
-squid:S106("9Replace this use of System.out or System.err by a logger.(Øªòùÿÿÿÿ8…Ç‡æ,
+squid:S106%"9Replace this use of System.out or System.err by a logger.(Øªòùÿÿÿÿ8Š·À•å,
+™squid:S1319"vThe type of the "linkedList" object should be an interface such as "List" rather than the implementation "LinkedList".(àƒˆşÿÿÿÿ8‰Šê‡æ,
+[
+squid:S106,"9Replace this use of System.out or System.err by a logger.(Øªòùÿÿÿÿ8‰Šê‡æ,
+hsquid:CommentedOutCodeLine."<This block of commented-out lines of code should be removed.(‰Ø~8­ñ©©õ,
+isquid:CommentedOutCodeLine1"<This block of commented-out lines of code should be removed.(å±Èó8­ñ©©õ,
+nsquid:CommentedOutCodeLine4"<This block of commented-out lines of code should be removed.(ñÀùÿÿÿÿ8­ñ©©õ,

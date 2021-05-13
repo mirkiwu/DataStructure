@@ -1,3 +1,10 @@
 
-Ksquid:S1481"(Remove this unused "min" local variable.(ÀáÓ«øÿÿÿÿ8×ãÀ¼æ,
-Hsquid:S00108")Either remove or fill this block of code.(ŸğÑµ8Õã°¼æ,
+[squid:S1197"8Move the array designator from the variable to the type.(•í„Áüÿÿÿÿ8Õ„ß£é,
+Usquid:S1197"8Move the array designator from the variable to the type.(âÅ¶\8ó²İ£é,
+Hsquid:S1481."+Remove this unused "random" local variable.(¼İÅf8ÖÙïé,
+[
+squid:S1068"9Replace this use of System.out or System.err by a logger.(ù¾Ùòüÿÿÿÿ8Ğ¼åé,
+Wsquid:S1854.":Remove this useless assignment to local variable "random".(¼İÅf8ÖÙïé,
+V
+squid:S106="9Replace this use of System.out or System.err by a logger.(‰¾ÌÕ8ƒşæé,
+nsquid:CommentedOutCodeLine:"<This block of commented-out lines of code should be removed.(ÁìÔ“ÿÿÿÿÿ8©ñ©©õ,
