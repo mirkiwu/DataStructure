@@ -13,19 +13,30 @@ public class BinarySearchTreeMain {
 
     public static void main(String[] args) {
 
-        BinarySearchTree<Integer> binarySearchTree = new BinarySearchTree<>();
+        AVLTree<Integer> avlTree = new AVLTree<>();
         Random random = new Random();
-
-        ArrayList<Integer> nums = new ArrayList<>();
-
         for (int i = 0; i < 1000 ; i++) {
-            binarySearchTree.add(random.nextInt(10000));
+            avlTree.add(random.nextInt(10000));
         }
 
-        while (!binarySearchTree.isEmpty()) {
-            nums.add(binarySearchTree.removeMin());
-        }
+        System.out.println(avlTree.isBST());
 
-        System.out.println("nums = " + nums);
+        System.out.println(avlTree.isBalanced());
+
     }
 }
+
+/*
+    BinarySearchTree<Integer> binarySearchTree = new BinarySearchTree<>();
+    Random random = new Random();
+
+    ArrayList<Integer> nums = new ArrayList<>();
+
+    for (int i = 0; i < 1000 ; i++) {
+        binarySearchTree.add(random.nextInt(10000));
+    }
+
+    while (!binarySearchTree.isEmpty()) {
+        nums.add(binarySearchTree.removeMin());
+    }
+*/

@@ -1,5 +1,6 @@
 package com.hxh.trie;
 
+import javax.xml.soap.Node;
 import java.util.TreeMap;
 
 /**
@@ -40,7 +41,6 @@ public class Trie {
         return size;
     }
 
-    // 向tree中添加数据
     public void add(String word){
         Node curl = root;
         for (int i = 0; i < word.length(); i++) {
@@ -54,35 +54,6 @@ public class Trie {
             curl.isWord = true;
             size ++;
         }
-    }
-
-    // 查询Trie中是否包含某个单词
-    public boolean contains(String word) {
-        Node curl = root;
-        for (int i = 0; i < word.length(); i++) {
-            char c = word.charAt(i);
-            if (curl.next.get(c) == null) {
-                return false;
-            }else{
-                curl = curl.next.get(c);
-            }
-        }
-        return curl.isWord;
-    }
-
-
-    // 查询Trie中是否有以prefix为前缀的单词
-    public boolean isPrefix(String prefix) {
-        Node curl = root;
-        for (int i = 0; i < prefix.length(); i++) {
-            char c = prefix.charAt(i);
-            if (curl.next.get(c) == null) {
-                return false;
-            }else{
-                curl = curl.next.get(c);
-            }
-        }
-        return true;
     }
 }
 
